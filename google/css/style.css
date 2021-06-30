@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 6px;
+  font-size: 13px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-margin {
+  margin-right: 0 4px 0 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header img {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.div-1{
+  padding: 0 15px;
+} 
+
+.div-2 {
+  padding-right: 15px;
+}
+
+.div-3 {
+  font-size: 16px;
+  padding: 4px;
+}
+
+.dots {
+  padding: 8px;
+}
+
+.div-3 i {
+  padding: 4px;
+}
+
+.div-3 .dots:hover {
+  background: rgba(95,99,104,0.24);
+  border-radius: 50%;
+}
+
+.div-4 a {
+  padding: 8px;
+}
+
+/* Utilities */
+.c-black {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.c-black:hover {
+  text-decoration: underline;
+}
+
+.c-darkgrey {
+  color: rgb(95, 99, 104);
+}
+
+.c-lightblue {
+  color: #4285f4;
+}
+
+.c-lightgrey {
+  color: #9aa0a6;
+}
+
+/* Search-section */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 87px;
+}
+section {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .search-box {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+main .search-box .search {
+  width: 100%;
+  padding: 13px;
+  padding-left: 45px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+main .search-box .icons {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+/* Buttons */
+
+button {
+  background: #f8f9fa;
+  color: #202124;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  min-width: 54px;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  margin: 11px 4px;
+}
+
+button:hover {
+  outline: 1px solid #dadce0;
+}
+
+button:active {
+  outline: 1px solid #4285f4;
+}
+
+/* Languages */
+.languages {
+  text-align: center;
+  margin: 24px 0;
+  font-size: 13px;
+}
+.span-padding {
+  padding: 0 3px;
+  color: rgb(26, 13, 171);
+}
+
+/* Footer  */
+footer {
+  background: #f2f2f2;
+  color: #70757a;
+}
+
+.div1 {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+}
+
+.div2 {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  display: inline-block;
+  padding: 15px;
+  color: #70757a;
+  font-size: 14px;
+}
+
